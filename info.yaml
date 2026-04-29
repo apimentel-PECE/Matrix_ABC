@@ -1,10 +1,10 @@
 
 # Tiny Tapeout project information
 project:
-  title:        "Philippine IC Design Boot Camp"      # Project title
-  author:       "Angelino A. Pimentel"      # Your name
-  discord:      " "      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  " "      # One line description of what your project does
+  title:        "Philippine IC Design Boot Camp 2026!"      # Project title
+  author:       "Alexander Co abad"      # Your name
+  discord:      "alexandercoabad_25756"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "Philippine IC Design Boot Camp 2026 Matrix-style display based on VGA Glyph by James Ross https://tinytapeout.com/chips/ttsky25a/tt_um_vga_glyph_mode"      # One line description of what your project does
   language:     "Verilog" # other examples include SystemVerilog, Amaranth, VHDL, etc
   clock_hz:     25175000       # Clock frequency in Hz (or 0 if not applicable)
 
@@ -24,14 +24,14 @@ project:
 # The pinout of your project. Leave unused pins blank. DO NOT delete or add any pins.
 pinout:
   # Inputs
-  ui[0]: "Pallete 0"
-  ui[1]: "Pallete 1"
+  ui[0]: "Palette 0"
+  ui[1]: "Palette 1"
   ui[2]: ""
   ui[3]: ""
   ui[4]: ""
   ui[5]: ""
-  ui[6]: "VGA Mode 0"
-  ui[7]: "VGA Mode 1"
+  ui[6]: "VGA Mode bit 0"
+  ui[7]: "VGA Mode bit 1"
 
   # Outputs
   uo[0]: "R1"

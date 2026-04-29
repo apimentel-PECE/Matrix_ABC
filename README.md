@@ -1,14 +1,33 @@
 ![](../../workflows/gds/badge.svg) ![](../../workflows/docs/badge.svg) ![](../../workflows/test/badge.svg) ![](../../workflows/fpga/badge.svg)
 
-# Tiny Tapeout Verilog Project Template
+# ABC-123 Matrix Display
 
-- [Read the documentation for project](docs/info.md)
+The algorithm is based on this https://tinytapeout.com/chips/ttsky25a/tt_um_vga_glyph_mode developed by James Ross.
 
-## What is Tiny Tapeout?
+The ABC-123 Matrix Display serves as a template for any combination of letters and numbers that you like!
+For example: https://github.com/alexandercoabad/Philippine_IC_Design_Boot_Camp_2026/tree/main
+ 
+Link to actual VGA Playground https://vga-playground.com/?repo=https://github.com/alexandercoabad/ABC_123_MatrixDisplay
 
-Tiny Tapeout is an educational project that aims to make it easier and cheaper than ever to get your digital and analog designs manufactured on a real chip.
 
-To learn more and get started, visit https://tinytapeout.com.
+https://github.com/user-attachments/assets/4a0a5c7e-606f-47e8-84d2-c81142dcafcf
+
+
+
+
+
+## Layout
+2D
+<img width="682" height="474" alt="Screenshot 2026-04-21 at 11 24 49 AM" src="https://github.com/user-attachments/assets/f6a713f0-3eb4-474d-9afe-fd3638590a9b" />
+
+
+3D
+<img width="907" height="635" alt="Screenshot 2026-04-21 at 11 25 49 AM" src="https://github.com/user-attachments/assets/df1d5c5e-eed5-41c9-9478-b676f658c414" />
+
+
+
+link to 3D viewer: https://gds-viewer.tinytapeout.com/?model=https://alexandercoabad.github.io/ABC_123_MatrixDisplay/tinytapeout.oas&pdk=sky130A
+
 
 ## Set up your Verilog project
 
@@ -28,8 +47,6 @@ The GitHub action will automatically build the ASIC files using [LibreLane](http
 - [FAQ](https://tinytapeout.com/faq/)
 - [Digital design lessons](https://tinytapeout.com/digital_design/)
 - [Learn how semiconductors work](https://tinytapeout.com/siliwiz/)
-
-- Okay
 - [Join the community](https://tinytapeout.com/discord)
 - [Build your design locally](https://www.tinytapeout.com/guides/local-hardening/)
 
